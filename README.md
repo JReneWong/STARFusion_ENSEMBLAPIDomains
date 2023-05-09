@@ -16,7 +16,9 @@ FOLDER STRUCTURE
 Each module (folder) contains three sub-folders:
 * bin: Scripts used in the module.
 * data: Input files. The files available files in the repository are toy-files for representation. User can link each /results sub-folder from the previous module to the /data sub-folder from the current module through symbolic links ('ln' command in unix/bash).  
-* results: This folder is created by the scripts in /bin. This folder will contain the output files from the module.   
+* results: This folder is created by the scripts in /bin. This folder will contain the output files from the module.  
+
+<img width="457" alt="Screenshot 2023-05-08 at 11 40 09 PM" src="https://user-images.githubusercontent.com/109715527/237004139-15daa7a3-3f78-40b7-acf7-d6ca79cbe74d.png">
 
 References: 
 1. Accuracy assessment of fusion transcript detection via read-mapping and de novo fusion transcript assembly-based methods. Haas, Brian J.; Dobin, Alexander; Li, Bo; Stransky, Nicolas; Pochet, Nathalie; Regev, Aviv; Genome Biology; 2019 https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1842-9
