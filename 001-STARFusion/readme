@@ -1,5 +1,17 @@
 Module 1. STAR-Fusion: Fusion detection.
+---
 Input: RNA-Seq BAM files.
+---
 Output: Putative fusions. 
+---
+Required modules: 
+	-singularity/3.7.0
+	-samtools/1.9
+	-bedtools/2.27.1
+	-star/2.7.9a
+	-star-fusion/1.10.1
+---
+Notes: This module was executed using 1 thread with 70 Gb of RAM (This will depend on the size of your BAM file and jobs). 
+---
 References: https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2FDrakeBell%2Fstatus%2F1196083107671068672&psig=AOvVaw0Vb0EpnvGYXKGbeAonNUUS&ust=1683499475053000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNiGrbPi4f4CFQAAAAAdAAAAABAI
 Date: April 6, 2023. 
