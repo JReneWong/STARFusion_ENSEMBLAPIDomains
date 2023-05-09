@@ -1,5 +1,5 @@
 # STARFusion_ENSEMBLAPIDomains
-##In-frame fusion transcripts detection and classififcation based on their domains
+In-frame fusion transcripts detection and classififcation based on their domains
 
 This pipeline contains 5 modules:
 1. Detection of fusion transcripts using STAR-Fusion [1].
@@ -8,8 +8,12 @@ This pipeline contains 5 modules:
 4. Use the ENSEMBL Perl API [2] to identify the domains for each transcript detected in the fusions.
 5. Classification of fusion transcripts based on the conservation of domaians in each transcript, considering the breaking point.
 
+FOLDER STRUCTURE
 
-
+Each module (folder) contains three sub-folders:
+  -bin: Scripts used in the module.
+  -data: Input files. The files available files in the repository are toy-files for representation. User can link each /results sub-folder from the previous module to the /data sub-folder from the current module through symbolic links ('ln' command in unix/bash).  
+  -results:
 
 References: 
 1. Accuracy assessment of fusion transcript detection via read-mapping and de novo fusion transcript assembly-based methods. Haas, Brian J.; Dobin, Alexander; Li, Bo; Stransky, Nicolas; Pochet, Nathalie; Regev, Aviv; Genome Biology; 2019 https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1842-9
