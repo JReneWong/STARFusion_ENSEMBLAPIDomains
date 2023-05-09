@@ -1,6 +1,6 @@
 # STARFusion_ENSEMBLAPIDomains
 In-frame fusion transcripts detection and classififcation based on their domains
-
+<img width="593" alt="Screenshot 2023-05-08 at 11 32 20 PM" src="https://user-images.githubusercontent.com/109715527/237002950-5880b749-7ce3-4b99-a477-ff1f310d3d3b.png">
 This pipeline contains 5 modules:
 1. Detection of fusion transcripts using STAR-Fusion [1].
 2. Extracting in-frame putative fusion-transcripts.
