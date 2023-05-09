@@ -1,5 +1,5 @@
 # STARFusion_ENSEMBLAPIDomains
-In-frame fusion transcripts detection and classififcation based on their domains
+##In-frame fusion transcripts detection and classififcation based on their domains
 
 This pipeline contains 5 modules:
 1. Detection of fusion transcripts using STAR-Fusion [1].
@@ -7,6 +7,8 @@ This pipeline contains 5 modules:
 3. Sorting information from each transcript. 
 4. Use the ENSEMBL Perl API [2] to identify the domains for each transcript detected in the fusions.
 5. Classification of fusion transcripts based on the conservation of domaians in each transcript, considering the breaking point.
+
+
 
 
 References: 
