@@ -1,5 +1,8 @@
-Module 1. STAR-Fusion: Fusion detection.
----
+----------------------------------------
+----------------------------------------
+Module 1. STAR-Fusion: Fusion detection
+----------------------------------------
+----------------------------------------
 Input: RNA-Seq BAM files.
 ---
 Output: STAR-Fusion putput folder described in the STAR-Fusion Tutorial webpage (https://github.com/STAR-Fusion/STAR-Fusion-Tutorial/wiki). A main output file in a tab-table format with the predictions. Additional folders for visualization, validaton and coding effect exploration will be inlcuded in the output.

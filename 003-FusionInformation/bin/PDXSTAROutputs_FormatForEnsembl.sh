@@ -1,13 +1,22 @@
 #!/bin/bash
-mkdir ./results
+########################################################################
 
-File=$(echo "../../../STARFusion_FilteringOutput/results/"$i"_FrameFusions.tsv")
+#Parameters, input and output file names
+
+File=$(echo "./data/InFrame_Fusions.tsv")
 OutputFile=$(echo "./results/FusionGenesInfo.txt")
 Tmp_Output=$(echo "./results/FusionGenesInfo_Tmp.txt")
+
+########################################################################
+
+mkdir ./results
+
 touch $Tmp_Output
 
-File = $(echo ./data/File.txt)
-FirstLine=$(echo "TRUE")
+FirstLine=$(echo "TRUE") #Avoiding header
+
+#Reading In-frame fusion file and extracting information from each transcript in the fusion.
+
 while read -r line
 do
 	if [ "$FirstLine" == "FALSE" ]; then

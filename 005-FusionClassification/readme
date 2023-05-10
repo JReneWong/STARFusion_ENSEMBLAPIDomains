@@ -1,0 +1,17 @@
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+Module 5. Classifying in-frame fusions based on domain conservation
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+Input: ENSEMBL Perl Api output file. Domains information (Name, Start CDS, End CDS, Description) ENSEMBL for each transcript. 
+-----
+Output: 5 .txt files depending on the conservation of the domains:
+	-Both domains: At least 1 conserved domain for each transcript in the fusion.
+	-No domains: No conserved domains for either transcript in the fusion.
+	-Left domain: At least one domain conserved in the left transcript.
+	-Right domain: At leadt one domain conserved in the right transcript.
+	-Conserved domains: All conserved domains for the all transcripts.
+-----
+Description: Using the breaking point for each transcript and the domains information (coordinates) to calculate if it has at least one conserved domain in the chimera structure and classify based on this.
+-----
+Date: May 10, 2023.

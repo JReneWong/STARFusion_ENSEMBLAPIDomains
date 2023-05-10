@@ -1,0 +1,12 @@
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Module 3. Extracting transcripts information from each in-frame fusion
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Input: STAR-Fusion format file just with in-frame fusions (resulting from the filtering of the original 'star-fusion.fusion_predictions.abridged.coding_effect.tsv').
+-----
+Output: Tab delimited file, containing the left and right transcript information from each fusion (A--B): In-house fusion ID, position in the fusion (left/right), ENSEMBL GeneName, ENSEMBL GeneID, fragment start, fragment end, strand, ENSEMBL TranscriptID.
+-----
+Description: Extracting transcript information from each transcript in the fusions to predict domain conservation.
+-----
+Date: May 10, 2023.

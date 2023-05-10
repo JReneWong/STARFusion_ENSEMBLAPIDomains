@@ -1,0 +1,14 @@
+-----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Module 4. Using ENSEMBL Perl API to get all domains for each transcript in the in-frame fusions
+-----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Input: .txt file with transcript information from each fusion-transcript. 
+-----
+Output: ENSEMBL Perl Api output file. Domains information (Name, Start CDS, End CDS, Description) ENSEMBL for each transcript.
+-----
+Description: Use the ENSEMBL Perl API to get all the domains for each transcript in the fusions to explore if they are conserved in the chimera structure.
+-----
+Note: Depending on ENSEMBL updates, it is possible that the API does not return information from a particular transcript.
+-----
+Date: May 10, 2023.

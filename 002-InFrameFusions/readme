@@ -1,7 +1,9 @@
-Module 2. In-Frame fusions from STAR-Fusion ouput.
------
------
-Input: STAR-Fusion file: 
+-------------------------------------------------
+-------------------------------------------------
+Module 2. In-Frame fusions from STAR-Fusion ouput
+-------------------------------------------------
+-------------------------------------------------
+Input: STAR-Fusion output file with coding effect information (star-fusion.fusion_predictions.abridged.coding_effect.tsv). STAR-Fusion generates a main folder that contains multiple subfolder with supporting information for visualization.
 -----
 Output: STAR-Fusion format file, only in-frame fusions. 
 -----
