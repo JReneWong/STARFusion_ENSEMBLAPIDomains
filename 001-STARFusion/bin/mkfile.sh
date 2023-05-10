@@ -9,8 +9,8 @@ BAM_File2=$(echo './data/'$BAM_File)
 Sorted_BAM=$(echo $BAM_File | sed -e 's/\.bam/_SortedBAM\.bam/')
 Sorted_BAM2=$(echo './results/'$Sorted_BAM)
 
-R1_fastq=$(echo './data/R1.fastq.gz')
-R2_fastq=$(echo './data/R2.fastq.gz')
+R1_fastq=$(echo './results/R1.fastq.gz')
+R2_fastq=$(echo './results/R2.fastq.gz')
 STAR_Fusion_OutputFolder=$(echo ./results')
 
 ######################################################################################
@@ -23,8 +23,8 @@ mkdir ./results
 
 #From BAM to fastq (R1 and R2)
         
-samtools sort -n $BAM_File2 -o $Sorted_BAM
-samtools fastq -@ 8 $Sorted_BAM \
+samtools sort -n $BAM_File2 -o $Sorted_BAM2
+samtools fastq -@ 8 $Sorted_BAM2 \
 	-1 $R1_fastq \
         -2 $R2_fastq
 

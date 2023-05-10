@@ -2,7 +2,7 @@ Module 1. STAR-Fusion: Fusion detection.
 ---
 Input: RNA-Seq BAM files.
 ---
-Output: Putative fusions. 
+Output: STAR-Fusion putput folder described in the STAR-Fusion Tutorial webpage (https://github.com/STAR-Fusion/STAR-Fusion-Tutorial/wiki). A main output file in a tab-table format with the predictions. Additional folders for visualization, validaton and coding effect exploration will be inlcuded in the output.
 ---
 Required modules: 
 	-singularity/3.7.0
@@ -11,7 +11,7 @@ Required modules:
 	-star/2.7.9a
 	-star-fusion/1.10.1
 ---
-Notes: This module was executed using 1 thread with 70 Gb of RAM (This will depend on the size of your BAM file and jobs). 
+Notes: This module was executed using 1 thread with 70 Gb of RAM (This will depend on the size of your BAM file and jobs). We used Singularity to execute STAR-Fusion, as described in the GitHub from the software (https://github.com/STAR-Fusion/STAR-Fusion/wiki/Home/9b7b28b6028c5fcdf8c245a3c7b84abdbee7ebdc). The /bin directory will require the .simg file from Singularity, please follow the instructions in their GitHub to download it. User can easily modfy the /bin/mkfile.sh file to execute STAR-Fusion.
 ---
 References: https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2FDrakeBell%2Fstatus%2F1196083107671068672&psig=AOvVaw0Vb0EpnvGYXKGbeAonNUUS&ust=1683499475053000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNiGrbPi4f4CFQAAAAAdAAAAABAI
 Date: April 6, 2023. 
